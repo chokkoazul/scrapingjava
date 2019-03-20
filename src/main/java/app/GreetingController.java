@@ -18,7 +18,7 @@ public class GreetingController {
 
     @RequestMapping("/greeting")
     public String greeting(@RequestParam(value="name", defaultValue="World") String name) {
-        File file = new File("/home/cristian.osorio/BackProjects/scrapingjava/chromedriver");
+        /*File file = new File("/home/cristian.osorio/BackProjects/scrapingjava/chromedriver");
         System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.afpcapital.cl/Paginas/login.aspx");
@@ -29,8 +29,8 @@ public class GreetingController {
         //System.out.println("Mi saldo es de ..."+driver.findElement(By.id("ctl00_ctl47_g_23531470_7a95_4424_88ae_063f94826c7e_spanTotalSaldo")).getText());
         String saldo = driver.findElement(By.id("ctl00_ctl47_g_23531470_7a95_4424_88ae_063f94826c7e_spanTotalSaldo")).getText();
         driver.close();
-
-       return saldo;
+*/
+       return "hola";
     }
 
 
