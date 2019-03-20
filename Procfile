@@ -1,1 +1,1 @@
-web: mvn spring-boot:run
+web: java -jar target/scrapingjava-1.0-SNAPSHOT.jar
